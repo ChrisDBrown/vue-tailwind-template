@@ -1,11 +1,11 @@
-<script setup>
-import { ref } from "vue";
+<script setup lang="ts">
+import { useCounterStore } from "../stores/counter";
 
 defineProps({
   msg: String,
 });
 
-const count = ref(0);
+const store = useCounterStore();
 </script>
 
 <template>
@@ -14,10 +14,10 @@ const count = ref(0);
   <div class="my-12">
     <button
       type="button"
-      @click="count++"
+      @click="store.increment"
       class="rounded-lg border border-zinc-900 bg-zinc-900 px-4 py-2 text-white transition hover:border-indigo-500"
     >
-      count is {{ count }}
+      count is {{ store.count }}
     </button>
     <p class="my-4 text-white">
       Edit
