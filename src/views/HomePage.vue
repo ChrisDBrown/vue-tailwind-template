@@ -4,7 +4,7 @@ import HelloWorld from "../components/HelloWorld.vue";
 
 <template>
   <main class="mx-auto max-w-xl text-center">
-    <div class="flex w-full justify-around my-12">
+    <div class="my-12 flex w-full justify-around">
       <a href="https://vitejs.dev" target="_blank">
         <img src="/vite.svg" class="w-24" alt="Vite logo" />
       </a>
