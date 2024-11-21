@@ -19,7 +19,7 @@ jobs:
       - name: Setup node env 🏗
         uses: actions/setup-node@v4.1.0
         with:
-          node-version: 20.10
+          node-version: 22.11
 
       - name: Cache node_modules 📦
         uses: actions/cache@v4.1.2
