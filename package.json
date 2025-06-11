@@ -11,8 +11,8 @@
     "test:watch": "vitest",
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
-    "lint": "eslint . --fix",
-    "format": "prettier --write src/ tests/"
+    "lint": "eslint . && prettier --check src/ tests/",
+    "fix": "eslint . --fix && prettier --write src/ tests/"
   },
   "dependencies": {
     "pinia": "^3.0.1",
