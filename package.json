@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "pinia": "^3.0.1",
-    "vue": "^3.5.17",
+    "vue": "^3.5.18",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
@@ -49,6 +49,6 @@
     "vue-tsc": "^3.0.1"
   },
   "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "^4.44.0"
+    "@rollup/rollup-linux-x64-gnu": "^4.46.0"
   }
 }
